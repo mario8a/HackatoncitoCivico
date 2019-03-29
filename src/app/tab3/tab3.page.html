@@ -9,14 +9,14 @@
             </ion-button>
         </ion-buttons>
         <ion-title>
-            Crud
+            Nos han fallado
         </ion-title>
     </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-    <ion-list>
+    <!-- <ion-list>
         <ng-container *ngIf="!todos || todos.length == 0">
             <div *ngFor="let n of [0,1,2]" padding>
                 <ion-skeleton-text></ion-skeleton-text>
@@ -45,6 +45,79 @@
         <ion-fab-button routerLink="/details" routerDirection="forward">
             <ion-icon name="add"></ion-icon>
         </ion-fab-button>
-    </ion-fab>
+    </ion-fab> -->
+
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6">
+                <ion-card>
+                    <img src="../../assets/ALCALDES/4-Manuel Negrete Arias (Coyoacán).png" alt="">
+                    <ion-card-header>
+                        <ion-card-subtitle>Manuel Negrete</ion-card-subtitle>
+                        <ion-card-title>PAN</ion-card-title>
+                        <div>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </ion-card-header>
+
+
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="6">
+                <ion-card>
+                    <img src="../../assets/ALCALDES/8-Raúl Armando Quintero (Iztacalco).png" alt="">
+                    <ion-card-header>
+                        <ion-card-subtitle>Raul Armando</ion-card-subtitle>
+                        <ion-card-title>PRD</ion-card-title>
+                        <div>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </ion-card-header>
+
+
+
+                </ion-card>
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6">
+                <ion-card>
+                    <img src="../../assets/ALCALDES/8-Raúl Armando Quintero (Iztacalco).png" alt="">
+                    <ion-card-header>
+                        <ion-card-subtitle>Raul Armando</ion-card-subtitle>
+                        <ion-card-title>PAN</ion-card-title>
+                        <div>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                    </ion-card-header>
+
+
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="6">
+                <ion-card>
+                    <img src="../../assets/ALCALDES/16-José Carlos Acosta.png" alt="">
+                    <ion-card-header>
+                        <ion-card-subtitle>Jose Carlos</ion-card-subtitle>
+                        <ion-card-title>PRI</ion-card-title>
+                        <div>
+                            <ion-icon name="star-half"></ion-icon>
+                        </div>
+                    </ion-card-header>
+
+
+
+                </ion-card>
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 
 </ion-content>
